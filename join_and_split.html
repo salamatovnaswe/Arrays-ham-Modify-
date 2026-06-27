@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            let awqatlar = [`Palaw`,`Sorpa`,`Quwirdaq`]
+
+            let prices = [13000, 27000, 35000]
+
+            let awqat = prompt(`Ne jeysiz? (${awqatlar.join(",")})`)
+
+            let index = awqatlar.indexOf(awqat)
+            let price = prices[index]
+
+            console.log(`${awqat} bir pors bahasi ${price} sum boladi!`)
+
+            let miyweler = prompt([`Banan`, `Alma`, `Juzim`, `Apelsin`])
+            let miywe_bahalari = [27000, 5000, 15000, 17000]
+
+            let miywe = miyweler
+
+            let index = miyweler.indexOf(miywe)
+            let miywe_bahasi = miywe_bahalari[index]
+            console.log(`${miywe} bir kg bahasi ${miywe_bahasi} sum boladi!`)
+        </script>
+    </body>
+</html>
